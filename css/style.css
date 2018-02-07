@@ -1,0 +1,46 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: url("../img/lingo.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+article{
+  background-color: yellow;
+  width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+main{
+  padding: 10px;
+}
+
+main p{
+  display: inline-block;
+}
+
+button{
+  display: inline-block;
+}
+
+input{
+  background-color: rgb(0, 163, 255);
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#restart{
+  padding: 3px;
+  background-color: red;
+  color: white;
+}
